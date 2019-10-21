@@ -1,0 +1,15 @@
+Index: llvm-toolchain-snapshot_9~svn351647/clang/lib/Driver/ToolChains/Arch/X86.cpp
+===================================================================
+--- llvm-toolchain-snapshot_9~svn351647.orig/clang/lib/Driver/ToolChains/Arch/X86.cpp
++++ llvm-toolchain-snapshot_9~svn351647/clang/lib/Driver/ToolChains/Arch/X86.cpp
+@@ -100,8 +100,8 @@ const char *x86::getX86TargetCPU(const A
+   case llvm::Triple::Haiku:
+     return "i586";
+   default:
+-    // Fallback to p4.
+-    return "pentium4";
++    // Fallback to i686.
++    return "i686";
+   }
+ }
+ 

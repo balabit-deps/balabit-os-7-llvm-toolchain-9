@@ -1,3 +1,9 @@
+llvm-toolchain-9 (1:9-2~ubuntu18.04.2) bionic-security; urgency=medium
+
+  * No-change rebuild for the -security pocket.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 31 Jan 2020 11:26:43 -0500
+
 llvm-toolchain-9 (1:9-2~ubuntu18.04.1) bionic; urgency=medium
 
   * Backport to bionic for 18.04.4 HWE stack update. (LP: #1848522)
